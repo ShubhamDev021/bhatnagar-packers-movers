@@ -1,0 +1,136 @@
+
+> bhatnagar-packers-movers@0.0.0 start
+> ng serve --host 127.0.0.1 --port 4300
+
+[33m>[39m Building...
+[32m√[39m Building...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m       [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m            [2m | [22m [36m22.69 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m          [2m | [22m  [36m7.85 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m[1m120.31 kB[22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m567.98 kB[39m[2m | [22m
+[32mchunk-Q6U5DSDC.mjs[39m  [2m | [22m[2m-[22m               [2m | [22m [36m23.15 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.39 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m     [2m | [22m[36m800 bytes[39m[2m | [22m
+
+Application bundle generation complete. [11.914 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+[2m1:23:03 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m Re-optimizing dependencies because vite config has changed
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4300[22m/[39m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m       [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m            [2m | [22m [36m22.69 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m          [2m | [22m  [36m7.85 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m[1m120.31 kB[22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m567.98 kB[39m[2m | [22m
+[32mchunk-Q6U5DSDC.mjs[39m  [2m | [22m[2m-[22m               [2m | [22m [36m23.15 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.39 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m     [2m | [22m[36m800 bytes[39m[2m | [22m
+
+Application bundle generation complete. [1.811 seconds]
+
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m       [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m            [2m | [22m [36m22.69 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m          [2m | [22m  [36m7.85 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m[1m120.31 kB[22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m567.98 kB[39m[2m | [22m
+[32mchunk-Q6U5DSDC.mjs[39m  [2m | [22m[2m-[22m               [2m | [22m [36m23.15 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.39 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m     [2m | [22m[36m800 bytes[39m[2m | [22m
+
+Application bundle generation complete. [1.464 seconds]
+
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m [2m | [22m[1mRaw size[22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m[2m | [22m [36m7.82 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.073 seconds]
+
+Stylesheet update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.033 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.051 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.025 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.024 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.029 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m       [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m            [2m | [22m [36m22.69 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m          [2m | [22m  [36m7.82 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m[1m120.28 kB[22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m567.98 kB[39m[2m | [22m
+[32mchunk-Q6U5DSDC.mjs[39m  [2m | [22m[2m-[22m               [2m | [22m [36m23.15 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.39 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m     [2m | [22m[36m800 bytes[39m[2m | [22m
+
+Application bundle generation complete. [0.040 seconds]
+
