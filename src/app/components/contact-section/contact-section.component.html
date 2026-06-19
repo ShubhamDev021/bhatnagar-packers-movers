@@ -1,0 +1,17 @@
+<section id="contact" class="section contact-section">
+  <div class="contact-copy">
+    <p class="eyebrow">Contact</p>
+    <h2>Ready when your move begins</h2>
+    <p>Bijnor, Uttar Pradesh</p>
+    <a [href]="'tel:+91' + phone">+91 {{ phone }}</a>
+    <a [href]="'mailto:' + email">{{ email }}</a>
+    <a [href]="whatsappLink" target="_blank" rel="noopener">Chat on WhatsApp</a>
+  </div>
+
+  <iframe
+    title="Bijnor Uttar Pradesh map"
+    src="https://www.google.com/maps?q=Bijnor%2C%20Uttar%20Pradesh&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</section>

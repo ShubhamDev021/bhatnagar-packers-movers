@@ -1,0 +1,33 @@
+<section id="quote" class="section quote-section">
+  <div>
+    <p class="eyebrow">Get quote</p>
+    <h2>Tell us about your shifting requirement</h2>
+    <p>
+      Share pickup, drop, moving date, and item details. We will call you back with a clear quote.
+    </p>
+  </div>
+
+  <form class="quote-form" [action]="'mailto:' + email" method="post" enctype="text/plain">
+    <label>
+      Name
+      <input name="name" type="text" placeholder="Your name" required />
+    </label>
+    <label>
+      Phone
+      <input name="phone" type="tel" placeholder="Mobile number" required />
+    </label>
+    <label>
+      Moving from
+      <input name="from" type="text" placeholder="Pickup city / area" required />
+    </label>
+    <label>
+      Moving to
+      <input name="to" type="text" placeholder="Drop city / area" required />
+    </label>
+    <label class="full-span">
+      Message
+      <textarea name="message" rows="4" placeholder="Household, office, vehicle, packing needs"></textarea>
+    </label>
+    <button class="btn primary full-span" type="submit">Send Enquiry</button>
+  </form>
+</section>

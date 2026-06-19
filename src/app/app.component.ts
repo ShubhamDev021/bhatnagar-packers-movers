@@ -1,46 +1,28 @@
 import { Component } from '@angular/core';
+import { AboutSectionComponent } from './components/about-section/about-section.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
+import { FloatingWhatsappComponent } from './components/floating-whatsapp/floating-whatsapp.component';
+import { HeroSectionComponent } from './components/hero-section/hero-section.component';
+import { ProofSectionComponent } from './components/proof-section/proof-section.component';
+import { QuoteSectionComponent } from './components/quote-section/quote-section.component';
+import { ServicesSectionComponent } from './components/services-section/services-section.component';
+import { SiteHeaderComponent } from './components/site-header/site-header.component';
+import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [
+    SiteHeaderComponent,
+    HeroSectionComponent,
+    AboutSectionComponent,
+    ServicesSectionComponent,
+    ProofSectionComponent,
+    TestimonialsSectionComponent,
+    QuoteSectionComponent,
+    ContactSectionComponent,
+    FloatingWhatsappComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  readonly phone = '9368145735';
-  readonly email = 'anubhatnagar15@gmail.com';
-  readonly whatsappLink =
-    'https://wa.me/919368145735?text=Namaste%20Bhatnagar%20Packers%20%26%20Movers%2C%20mujhe%20shifting%20quote%20chahiye.';
-
-  readonly services = [
-    'Household goods shifting',
-    'Office shifting',
-    'Vehicle transport',
-    'Packing and unpacking',
-    'Loading and unloading',
-    'Safe and insured moving'
-  ];
-
-  readonly reasons = [
-    'Experienced and trained team',
-    'Secure packing material',
-    'On-time delivery',
-    'Transparent and fair pricing',
-    'Customer satisfaction first'
-  ];
-
-  readonly testimonials = [
-    {
-      quote: 'Team ne packing bahut safely ki aur delivery time par ho gayi.',
-      name: 'Amit Sharma'
-    },
-    {
-      quote: 'Local shifting smooth rahi. Price clear tha aur staff cooperative tha.',
-      name: 'Neha Gupta'
-    },
-    {
-      quote: 'Bike transport aur ghar ka saman dono safely receive hua.',
-      name: 'Rohit Verma'
-    }
-  ];
-}
+export class AppComponent {}

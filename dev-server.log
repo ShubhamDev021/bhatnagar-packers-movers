@@ -134,3 +134,14 @@ Page reload sent to client(s).
 
 Application bundle generation complete. [0.040 seconds]
 
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m [36m23.80 kB[39m[2m | [22m
+[32mchunk-EQAXQHOT.mjs[39m [2m | [22m[2m-[22m          [2m | [22m[36m648 bytes[39m[2m | [22m
+[32mserver.mjs[39m         [2m | [22m[2mserver[22m     [2m | [22m[36m482 bytes[39m[2m | [22m
+
+Application bundle generation complete. [5.170 seconds]
+
+Page reload sent to client(s).

@@ -1,0 +1,15 @@
+<section class="section testimonials-section">
+  <div class="section-heading">
+    <p class="eyebrow">Testimonials</p>
+    <h2>Customers trust the process</h2>
+  </div>
+
+  <div class="testimonial-grid">
+    @for (item of testimonials; track item.name) {
+      <article class="testimonial">
+        <p>"{{ item.quote }}"</p>
+        <strong>{{ item.name }}</strong>
+      </article>
+    }
+  </div>
+</section>

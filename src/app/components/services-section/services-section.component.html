@@ -1,0 +1,16 @@
+<section id="services" class="section services-section">
+  <div class="section-heading">
+    <p class="eyebrow">Our services</p>
+    <h2>Everything needed for a safer move</h2>
+  </div>
+
+  <div class="service-grid">
+    @for (service of services; track service) {
+      <article class="service-item">
+        <span class="service-icon" aria-hidden="true">{{ $index + 1 }}</span>
+        <h3>{{ service }}</h3>
+        <p>Planned handling, protective packing, and careful movement from pickup to delivery.</p>
+      </article>
+    }
+  </div>
+</section>
