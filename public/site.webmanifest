@@ -1,0 +1,23 @@
+{
+  "name": "Bhatnagar Packers & Movers",
+  "short_name": "Bhatnagar Movers",
+  "description": "Safe packing, shifting, vehicle transport, and all India moving services from Bijnor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#061f4f",
+  "theme_color": "#061f4f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/packers-movers-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

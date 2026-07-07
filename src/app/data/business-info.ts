@@ -9,10 +9,21 @@ export interface FaqItem {
 }
 
 export const businessInfo = {
+  name: 'Bhatnagar Packers & Movers',
+  legalName: 'Bhatnagar Packers and Movers',
   phone: '9368145735',
   email: 'anubhatnagar15@gmail.com',
+  siteUrl: 'https://bhatnagarpackersmovers.com',
+  logoPath: '/packers-movers-logo.png',
+  flyerPath: '/packers-movers-flyer.jpeg',
+  locality: 'Bijnor',
+  region: 'Uttar Pradesh',
+  country: 'IN',
+  postalCountry: 'India',
   whatsappLink:
     'https://wa.me/919368145735?text=Namaste%20Bhatnagar%20Packers%20%26%20Movers%2C%20mujhe%20shifting%20quote%20chahiye.',
+  description:
+    'Bhatnagar Packers & Movers in Bijnor offers household shifting, office shifting, vehicle transport, packing, loading, unloading, and all India moving services.',
 };
 
 export const services = [
