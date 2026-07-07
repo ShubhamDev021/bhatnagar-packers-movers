@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
+import { FaqSectionComponent } from './components/faq-section/faq-section.component';
 import { FloatingWhatsappComponent } from './components/floating-whatsapp/floating-whatsapp.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { ProofSectionComponent } from './components/proof-section/proof-section.component';
@@ -18,6 +19,7 @@ import { TestimonialsSectionComponent } from './components/testimonials-section/
     ServicesSectionComponent,
     ProofSectionComponent,
     TestimonialsSectionComponent,
+    FaqSectionComponent,
     QuoteSectionComponent,
     ContactSectionComponent,
     FloatingWhatsappComponent,

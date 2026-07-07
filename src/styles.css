@@ -256,7 +256,8 @@ h3 {
 
 .quick-facts div,
 .service-item,
-.testimonial {
+.testimonial,
+.faq-item {
   padding: 22px;
   background: var(--white);
   border: 1px solid var(--line);
@@ -277,7 +278,8 @@ h3 {
 }
 
 .services-section,
-.testimonials-section {
+.testimonials-section,
+.faq-section {
   background: var(--surface);
 }
 
@@ -287,7 +289,8 @@ h3 {
 }
 
 .service-grid,
-.testimonial-grid {
+.testimonial-grid,
+.faq-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
@@ -356,6 +359,14 @@ h3 {
 
 .testimonial strong {
   color: var(--orange);
+}
+
+.faq-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.faq-item p {
+  margin-bottom: 0;
 }
 
 .quote-form {
@@ -449,6 +460,7 @@ iframe {
 
   .service-grid,
   .testimonial-grid,
+  .faq-grid,
   .quick-facts {
     grid-template-columns: 1fr;
   }

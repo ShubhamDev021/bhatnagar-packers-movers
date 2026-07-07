@@ -1,0 +1,15 @@
+<section class="section faq-section">
+  <div class="section-heading">
+    <p class="eyebrow">Questions</p>
+    <h2>Packers and movers in Bijnor, made simple</h2>
+  </div>
+
+  <div class="faq-grid">
+    @for (item of faqs; track item.question) {
+      <article class="faq-item">
+        <h3>{{ item.question }}</h3>
+        <p>{{ item.answer }}</p>
+      </article>
+    }
+  </div>
+</section>
