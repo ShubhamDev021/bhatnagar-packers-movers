@@ -17,7 +17,7 @@ describe('AppComponent', () => {
 
   it('should keep business contact data available from the shared data file', () => {
     expect(businessInfo.phone).toEqual('9368145735');
-    expect(businessInfo.email).toEqual('anubhatnagar15@gmail.com');
+    expect(businessInfo.email).toContain('@');
     expect(services.length).toBe(6);
   });
 

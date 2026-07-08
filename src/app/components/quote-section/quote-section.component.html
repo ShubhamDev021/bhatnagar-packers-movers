@@ -7,10 +7,26 @@
     </p>
   </div>
 
-  <form class="quote-form" [action]="'mailto:' + email" method="post" enctype="text/plain">
+  <form
+    class="quote-form"
+    name="quote-request"
+    method="post"
+    action="/thank-you.html"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="form-name" value="quote-request" />
+    <label class="netlify-hidden">
+      Do not fill this field
+      <input name="bot-field" autocomplete="off" tabindex="-1" />
+    </label>
     <label>
       Name
       <input name="name" type="text" placeholder="Your name" required />
+    </label>
+    <label>
+      Email
+      <input name="email" type="email" placeholder="yourname@example.com" required />
     </label>
     <label>
       Phone
